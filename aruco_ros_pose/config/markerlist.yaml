@@ -1,0 +1,6 @@
+#: Auskommentieren    ? : Unbekannt										
+#	ID	X	Y	Z	RX	RY	RZ	S	#	Kommentar
+	1 0	0.4025	0.455	1.91982	0	1.5708	0.141	#	Rueckfahrt
+	2	0	-0.4025	0.455	1.91987	0	1.5708	0.141	#	Rueckfahrt
+
+

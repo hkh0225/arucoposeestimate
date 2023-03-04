@@ -1,0 +1,6 @@
+<launch>
+    <node name="class_detect_node" pkg="aruco_ros_pose" type="class_detect_markers_node" ns = "video_publisher" args="0 0 0 0 0 0 0 map world 100"/>
+    <arg name="publish_frequency" default="30"/>
+    <node name="camera_pose" pkg="aruco_ros_pose" type="camera_pose_listener" ns = "video_publisher"/>     
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find aruco_ros_pose)/config/rvizconfig_new.rviz"/>
+</launch>
